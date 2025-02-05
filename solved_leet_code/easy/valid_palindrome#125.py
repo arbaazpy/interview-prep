@@ -28,7 +28,7 @@ Constraints:
 class Solution:
     def isPalindrome(self, s: str) -> bool:
         # Preprocess the string: keep alphanumeric characters and convert to lowercase
-        processed = [char.lower() for char in s if char.isalnum()]
+        processed = "".join([char.lower() for char in s if char.isalnum()])
         
         # Check palindrome using two pointers
         left, right = 0, len(processed) - 1
