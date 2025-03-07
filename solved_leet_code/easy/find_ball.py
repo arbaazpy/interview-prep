@@ -29,6 +29,10 @@ Explanation: No swaps performed; ball remains in B.
 Constraints:
 - 1 <= len(swaps) <= 1000
 - Each swap is a string of length 2 with distinct uppercase letters from "A", "B", "C".
+
+Efficiency:
+- Time Complexity: O(n) - Process each swap exactly once.
+- Space Complexity: O(1) = Only track the current position of the ball.
 """
 
 from typing import List

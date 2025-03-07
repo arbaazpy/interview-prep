@@ -31,6 +31,10 @@ Explanation:
 
 Constraints:
 - 1 <= n <= 10^4
+
+Efficiency:
+- Time Complexity: O(n) — Process each number exactly once.
+- Space Complexity: O(n) — Store the result list of size n.
 """
 
 from typing import List
